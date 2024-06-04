@@ -11,20 +11,20 @@ if not PATH.exists():
             f2.write(f1.read())
 
 setup(
-    name="bing-chat",
-    version="1.9.4",
+    name="dotslashcode",
+    version="2",
     license="MIT",
-    author="Zack Bradshaw",
-    author_email="zack@zackbradshaw.com",
+    author="dotslashCosmic",
+    author_email="dotslashcosmic@protonmail.com",
     description="Bing-Chat-API",
     packages=find_packages("src"),
     package_dir={"": "src"},
-    url="https://github.com/Agora-X/Bing-Chat-API",
-    project_urls={"Bug Report": "https://github.com/Agora-X/Bing-Chat-API/issues/new"},
+    url="https://github.com/dotslashCosmic/dotslashcode",
+    project_urls={"Bug Report": "https://github.com/dotslashCosmic/dotslashcode/issues/new"},
     entry_points={
         "console_scripts": [
             # Update these with your actual console scripts
-            "bing-chat = BingChat.main:main",
+            "dotslashcode = BingChat.main:main",
         ],
     },
     install_requires=[
