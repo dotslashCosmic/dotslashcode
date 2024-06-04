@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "bing-chat"
-version = "1.9.5"
+name = "dotslashCosmic/dotslashcode"
+version = "2"
 description = "Bing-Chat-API"
-authors = ["Zack Bradshaw <zack@zackbradshaw.com>"]
+authors = ["dotslashCosmic <dotslashcosmic@protonmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
@@ -25,4 +25,4 @@ build-backend = "poetry.core.masonry.api"
 bing-chat = "main:main"
 
 [tool.poetry.urls]
-"Bug Report" = "https://github.com/Agora-X/Bing-Chat-API/issues/new"
+"Bug Report" = "https://github.com/dotslashCosmic/dotslashcode/issues/new"
